@@ -1,0 +1,304 @@
+body {
+	font-family: Open Sans;
+	margin: 0px;
+}
+
+#wrapper img{
+	width: 100%;
+}
+
+#saying1{
+	position: absolute;
+	left: 100px;
+	font-size: 56px;
+	color:#FFFFFF;
+	top:700px;
+	font-style: italic;
+}
+
+#saying2{
+	position: absolute;
+	left: 110px;
+	font-size: 40px;
+	color:#FFFFFF;
+	top:780px;
+	font-style: italic;
+}
+
+#name{
+	position: absolute;
+	left: 150px;
+	font-size: 32px;
+	color:#FFFFFF;
+	top:45px;
+}
+
+#home{
+	position: absolute;
+	left: 830px;
+	font-size: 20px;
+	color:#FFFFFF;
+	top:55px;
+}
+
+#about{
+	position: absolute;
+	left: 950px;
+	font-size: 20px;
+	color:#FFFFFF;
+	top:55px;
+}
+
+#work{
+	position: absolute;
+	left: 1080px;
+	font-size: 20px;
+	color:#FFFFFF;
+	top:55px;
+}
+
+#text{
+	position: absolute;
+	left: 1200px;
+	font-size: 20px;
+	color:#FFFFFF;
+	top:55px;
+}
+
+#contact{
+	position: absolute;
+	left: 1300px;
+	font-size: 20px;
+	color:#FFFFFF;
+	top:55px;
+}
+
+#contactpic img{
+	position: absolute;
+	width: 300px;
+	top:250px;
+	left: 250px;
+}
+
+#contactname{
+	position: absolute;
+	top:250px;
+	left: 630px;
+	z-index: 1;
+
+}
+
+#contactemail{
+	position: absolute;
+	top:310px;
+	left: 630px;
+	z-index: 1;
+}
+
+#contactmsg{
+	position: absolute;
+	top:370px;
+	left: 630px;
+	z-index: 1;
+}
+
+#contactsubmit{
+	width: 150px;
+	height: 40px;
+	position: absolute;
+	top: 550px;
+	left: 850px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: yellow;
+	color:yellow;
+	font-size: 24px;
+	padding: 6px;
+	text-align: center;
+}
+
+#abouttext{
+	position: absolute;
+	left: 100px;
+	font-size: 20px;
+	color:#FFFFFF;
+	top:550px;
+	width: 500px;
+	line-height: 40px;
+}
+
+.carousel-container {
+	width: 960px;
+	margin: 0 auto;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	top:-900px;
+}
+#carousel {
+	width: 4800px;
+	height: 100%;
+	margin-left: 0px;
+	-webkit-transition: all 0.3s;
+}
+
+.carousel-item {
+	width: 960px;
+	position: relative;
+	height: 100%;
+	float: left;
+}
+
+#carousel-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    left: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+#carousel-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    right: 60px;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}
+
+.no-scroll {
+	overflow: hidden;
+}
+.button-active { 
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+.wrapper-active {
+	-webkit-transform: translateX(280px);
+	-moz-transform: translateX(280px);
+	transform: translateX(280px);
+}
+
+.sidebar-active {
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-o-transform: translateX(0px);
+}
+
+
+.sidebar-container {
+	-webkit-transform: translateX(-280px);
+	position: absolute;
+	top:0px;
+	width: 280px;
+	height: 123%;
+	background-color: black;
+	-webkit-transition: all 0.3s;
+	z-index: 122;
+}
+.sidebar-container ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 10px;
+}
+#sidebar-essay {
+	font-weight: 700;
+	font-size: 16px;
+	color: white;
+	padding: 20px 15px 20px 15px;
+	cursor: pointer;
+}
+#sidebar-interview {
+	font-weight: 700;
+	font-size: 16px;
+	color: white;
+	padding: 20px 15px 20px 15px;
+	cursor: pointer;
+}
+#sidebar-critism {
+	font-weight: 700;
+	font-size: 16px;
+	color: white;
+	padding: 20px 15px 20px 15px;
+	cursor: pointer;
+}
+#sidebar-button {
+	position: absolute;
+	z-index: 100;
+	left: 15px;
+	top: 45px;
+	cursor: pointer;
+	padding: 10px;
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+} 
+.critismto{
+	width: 700px;
+	position: absolute;
+	left: 300px;
+	top:150px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	display: none;
+	padding: 10px;
+}
+.essayto{
+	width: 700px;
+	position: absolute;
+	left: 300px;
+	top:150px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	display: none;
+	padding: 10px;
+}
+.interviewto{
+	width: 700px;
+	position: absolute;
+	left: 300px;
+	top:150px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	display: none;
+	padding: 10px;
+}
+#essaytitle{
+	font-size: 24px;
+	text-align: center;
+}
+#interviewtitle{
+	font-size: 24px;
+	text-align: center;
+}
+#critismtitle{
+	font-size: 24px;
+	text-align: center;
+}
+#interview{
+	font-size: 20px;
+}
+
+#critism{
+	font-size: 20px;
+}
+#essay{
+	font-size: 20px;
+}
