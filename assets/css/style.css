@@ -115,6 +115,7 @@ body {
 	font-size: 24px;
 	padding: 6px;
 	text-align: center;
+	cursor: pointer;
 }
 
 #abouttext{
@@ -239,7 +240,7 @@ body {
 	position: absolute;
 	z-index: 100;
 	left: 15px;
-	top: 45px;
+	top: 53px;
 	cursor: pointer;
 	padding: 10px;
 	color: white;
@@ -249,6 +250,8 @@ body {
 	-moz-transition: all .3s;
 	-o-transition: all .3s;
 	transition: all .3s;
+	width: 10px;
+	height: 10px;
 } 
 .critismto{
 	width: 700px;
@@ -283,14 +286,17 @@ body {
 #essaytitle{
 	font-size: 24px;
 	text-align: center;
+	margin-bottom: 10px;
 }
 #interviewtitle{
 	font-size: 24px;
 	text-align: center;
+	margin-bottom: 10px;
 }
 #critismtitle{
 	font-size: 24px;
 	text-align: center;
+	margin-bottom: 10px;
 }
 #interview{
 	font-size: 20px;
